@@ -1,0 +1,25 @@
+﻿{
+  "AbstractType": null,
+  "GdamAgencyId": "58ecfbd824e49901801d608e",
+  "Name": "Saatchi",
+  "Labels": [
+    "nVerge",
+    "costPG",
+    "FTP",
+    "Physical",
+    "dubbing_services",
+    "Cyclone"
+  ],
+  "AdcostMetadataField": null,
+  "Address": null,
+  "Country": null,
+  "CountryId": "e78c4746-1ece-11e7-887e-0b3f5cbf2325",
+  "PrimaryCurrency": "f1c647ca-1ece-11e7-8938-2b5aae22e030",
+  "Disabled": false,
+  "Gid": null,
+  "Projects": null,
+  "ParentId": "38729336-3451-4949-a7a4-f86f52dce7f4",
+  "UserGroups": null,
+  "Id": "ee69c624-1ece-11e7-8eec-5f5585d729cf"
+}
+

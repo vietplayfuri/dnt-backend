@@ -1,0 +1,1 @@
+delete from smo where key = 'NIGERIAN GROUP';

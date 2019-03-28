@@ -1,0 +1,54 @@
+﻿{
+  "_id": "5926d81c9bd116001e629cb0",
+  "_cm": {
+    "common": {
+      "email": "test@teststs.com",
+      "firstName": "Test",
+      "lastName": "Test",
+      "jobTitle": "Test",
+      "country": [
+        "AF"
+      ],
+      "language": [
+        "en"
+      ],
+      "fullName": "Test Test",
+      "passwordNeverExpires": false
+    },
+    "view": {
+      "access": {
+        "folders": true,
+        "adcost": true,
+        "adkits": true,
+        "approvals": true,
+        "ordering": true,
+        "library": true,
+        "annotations": true,
+        "frame_grabber": true,
+        "presentations": true
+      }
+    }
+  },
+  "_documentType": "user",
+  "_version": 26,
+  "_subtype": "user",
+  "passwordExpirationDate": "2017-06-24T13:13:09.851Z",
+  "_created": "2017-05-25T13:13:09.852Z",
+  "_modified": "2017-05-25T13:16:25.569Z",
+  "_s": 1,
+  "owner": "4ef31ce1766ec96769b399c0",
+  "_parents": [
+    "58ecfbd824e49901801d608e",
+    "5922eb74b4051e01c65a99c7"
+  ],
+  "createdBy": {
+    "_id": "4ef31ce1766ec96769b399c0",
+    "email": "admin"
+  },
+  "agency": {
+    "_id": "58ecfbd824e49901801d608e",
+    "name": "Saatchi",
+    "country": "GB"
+  },
+  "registered": true
+}

@@ -1,0 +1,3 @@
+UPDATE "rule"
+  SET criteria = '{"Children": [{"Operator": "NotEqual","FieldName": "CostStage","TargetValue": "Aipe"},{"Children": [{"Children": [{"Operator": "Equal","FieldName": "UserIsIPMAndApproved","TargetValue": "true"},{"Operator": "Equal","FieldName": "IsAdmin","TargetValue": "true"}],"Operator": "Or"},{"Operator": "Equal","FieldName": "IsLatestRevision","TargetValue": "true"}],"Operator": "And"},{"Children": [{"Operator": "Equal","FieldName": "Status","TargetValue": "PendingBrandApproval"},{"Operator": "Equal","FieldName": "Status","TargetValue": "Approved"}],"Operator": "Or"}],"Operator": "And"}'
+  WHERE "name" = 'EditValueReporting';

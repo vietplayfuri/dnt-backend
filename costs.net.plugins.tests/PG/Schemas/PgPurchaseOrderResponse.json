@@ -1,0 +1,67 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "requisition": {
+      "type": ["string", "null"]
+    },
+    "poNumber": {
+      "type": ["string", "null"]
+    },
+    "approverEmail": {
+      "type": ["string", "null"]
+    },
+    "ioNumberOwner": {
+      "type": ["string", "null"]
+    },
+    "grNumber": {
+      "type": ["string", "null"]
+    },
+    "glAccount": {
+      "type": ["string", "null"]
+    },
+    "poDate": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "grDate": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "accountCode": {
+      "type": ["string", "null"]
+    },
+    "comments": {
+      "type": ["string", "null"]
+    },
+    "type": {
+      "type": ["string", "null"]
+    },
+    "itemIdCode": {
+      "type": ["string", "null"]
+    },
+    "approvalStatus": {
+      "type": ["string", "null"]
+    },
+    "totalAmount": {
+      "type": ["number", "null"],
+      "multipleOf": 0.01
+    }
+  },
+  "required": [
+    "requisition",
+    "poNumber",
+    "approverEmail",
+    "ioNumberOwner",
+    "grNumber",
+    "glAccount",
+    "poDate",
+    "grDate",
+    "accountCode",
+    "comments",
+    "approvalStatus",
+    "totalAmount",
+    "type",
+    "itemIdCode"
+  ]
+}

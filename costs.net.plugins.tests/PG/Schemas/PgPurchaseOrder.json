@@ -1,0 +1,110 @@
+﻿{
+  "definitions": {
+    "longTextField": {
+      "type": ["object", "null"],
+      "properties": {
+        "vn": {
+          "type": ["array", "null"],
+          "items": { "type": ["string", "null"] }
+        },
+        "an": {
+          "type": ["array", "null"],
+          "items": { "type": ["string", "null"] }
+        },
+        "bn": {
+          "type": ["array", "null"],
+          "items": { "type": ["string", "null"] }
+        }
+      },
+      "required": ["vn", "an", "bn"]
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "basketName": {
+      "type": [ "string", "null" ]
+    },
+    "description": {
+      "type": [ "string", "null" ]
+    },
+    "totalAmount": {
+      "type": "number"
+    },
+    "paymentAmount": {
+      "type": "number"
+    },
+    "currency": {
+      "type": [ "string", "null" ]
+    },
+    "vendor": {
+      "type": [ "string", "null" ]
+    },
+    "categoryId": {
+      "type": [ "string", "null" ]
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "deliveryDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "costNumber": {
+      "type": [ "string", "null" ]
+    },
+    "gl": {
+      "type": [ "string", "null" ]
+    },
+    "ioNumber": {
+      "type": [ "string", "null" ]
+    },
+    "tNumber": {
+      "type": [ "string", "null" ]
+    },
+    "requisitionerEmail": {
+      "type": [ "string", "null" ]
+    },
+    "longText": {
+      "$ref": "#/definitions/longTextField"
+    },
+    "poNumber": {
+      "type": [ "string", "null" ]
+    },
+    "accountCode": {
+      "type": [ "string", "null" ]
+    },
+    "itemIdCode": {
+      "type": [ "string", "null" ]
+    },
+    "grNumbers": {
+      "type": [ "array", "null" ],
+      "items": { "type": [ "string", "null" ] }
+    },
+    "commodity": {
+      "type": [ "string", "null" ]
+    }
+  },
+  "required": [
+    "basketName",
+    "description",
+    "totalAmount",
+    "paymentAmount",
+    "currency",
+    "vendor",
+    "categoryId",
+    "startDate",
+    "deliveryDate",
+    "costNumber",
+    "gl",
+    "ioNumber",
+    "tNumber",
+    "requisitionerEmail",
+    "longText",
+    "poNumber",
+    "accountCode",
+    "itemIdCode",
+    "grNumbers"
+  ]
+}

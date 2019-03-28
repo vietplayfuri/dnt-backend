@@ -1,0 +1,46 @@
+﻿{
+  "version": 1.0,
+  "timestamp": "2017-04-13T11:33:56.254Z",
+  "subject": {
+    "id": "4ef31ce1766ec96769b399c0",
+    "email": "admin",
+    "application": "adbank5"
+  },
+  "action": {
+    "type": "schemaChanged"
+  },
+  "object": {
+    "id": "58ed0cb3adf81c002c6e4268",
+    "name": "Schema",
+    "type": "schema",
+    "schema": {
+      "id": "58ed0cb3adf81c002c6e4268",
+      "group": [
+        "asset_element_project_common"
+      ],
+      "type": "agency",
+      "agency": "58ecfbd824e49901801d608e"
+    },
+    "parents": []
+  },
+  "recipients": [
+    "4ef31ce1766ec96769b399c0"
+  ],
+  "viewers": [
+    "4ef31ce1766ec96769b399c0"
+  ],
+  "shared": {
+    "to": [
+      {
+        "id": "4ef31ce1766ec96769b399c0",
+        "agency": {
+          "url": "http://localhost:8080"
+        }
+      }
+    ]
+  },
+  "view": {
+    "id": "58ed0cb3adf81c002c6e4268"
+  },
+  "id": "58ef622ff3000017006a5586"
+}

@@ -1,0 +1,116 @@
+﻿{
+  "list": [
+    {
+      "owner": "4ef31ce1766ec96769b399c0",
+      "_documentType": "group",
+      "_subtype": "agency",
+      "_cm": {
+        "passwordSettings": {
+          "passwordRegEx": {
+            "description": {
+              "minimumIncludingNumbers": {
+                "minimumIncludingNumbers": 0,
+                "minIncludingUppercase": 0,
+                "minTotalLengthOfPassword": 0
+              },
+              "minIncludingUppercase": {
+                "minimumIncludingNumbers": 0,
+                "minIncludingUppercase": 0,
+                "minTotalLengthOfPassword": 0
+              },
+              "minTotalLengthOfPassword": {
+                "minimumIncludingNumbers": 0,
+                "minIncludingUppercase": 0,
+                "minTotalLengthOfPassword": 0
+              }
+            }
+          },
+          "passwordExpirationInDays": 999
+        },
+        "view": {
+          "brandingSB": [
+            "#0092d6",
+            "",
+            "#0092d6"
+          ]
+        },
+        "a4": {
+          "createAssetInA4": false
+        },
+        "common": {
+          "defaultMC": false,
+          "address": {
+            "country": [
+              "GB"
+            ]
+          },
+          "pin": "1234",
+          "name": "Saatchi",
+          "allowChangeMC": true,
+          "time_zone": [
+            "Europe-London"
+          ],
+          "saveInLibrary": false,
+          "allowUserChangeSaveInLibrary": true,
+          "agencyType": [
+            "Agency"
+          ],
+          "storageId": "56126256e4b031a9bfef5830",
+          "labels": [
+            "nVerge",
+            "costPG",
+            "FTP",
+            "Physical",
+            "dubbing_services",
+            "Cyclone"
+          ],
+          "applications": {
+            "folders": true,
+            "library": true,
+            "adpath": false,
+            "adcost": true,
+            "ordering": true,
+            "approvals": true,
+            "adkits": true,
+            "annotations": true,
+            "frame_grabber": true,
+            "presentations": true,
+            "reporting": false,
+            "ingest": false
+          }
+        },
+        "project": {
+          "finderStyleView": false,
+          "filtersEnabled": false,
+          "restrictOwnerPermissions": false
+        },
+        "finance": {
+          "sap": {
+            "country": [],
+            "id": "",
+            "enabled": false
+          }
+        }
+      },
+      "_sharingSettings": {
+        "enrichDictionary": false
+      },
+      "_parents": [
+        "4f05555323b4d5779cdf61af"
+      ],
+      "federatedUserProvisionEnabled": false,
+      "_s": 1,
+      "createdBy": {
+        "_id": "4ef31ce1766ec96769b399c0",
+        "email": "admin"
+      },
+      "_created": "2017-04-11T15:52:56.791Z",
+      "_id": "58ecfbd824e49901801d608e",
+      "_version": 36,
+      "_modified": "2017-04-12T16:28:50.999Z"
+    }
+  ],
+  "more": false,
+  "total": 1,
+  "empty": true
+}

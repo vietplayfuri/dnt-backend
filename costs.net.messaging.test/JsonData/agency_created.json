@@ -1,0 +1,42 @@
+﻿{
+  "version": 1.0,
+  "timestamp": "2017-05-24T13:02:21.924Z",
+  "subject": {
+    "id": "4ef31ce1766ec96769b399c0",
+    "email": "admin",
+    "application": "adbank5"
+  },
+  "action": {
+    "type": "businessUnitCreated"
+  },
+  "object": {
+    "id": "58ecfbd824e49901801d608e",
+    "name": "Created Agency",
+    "type": "business-unit",
+    "timezone": "Africa/Addis_Ababa",
+    "relativeLogoUrl": "/resource/branding/58ecfbd824e49901801d608e",
+    "parents": [
+      "58ecfbd824e49901801d608e"
+    ]
+  },
+  "recipients": [
+    "4ef31ce1766ec96769b399c0"
+  ],
+  "viewers": [
+    "4ef31ce1766ec96769b399c0"
+  ],
+  "shared": {
+    "to": [
+      {
+        "id": "4ef31ce1766ec96769b399c0",
+        "agency": {
+          "url": "http://localhost:8080"
+        }
+      }
+    ]
+  },
+  "view": {
+    "id": "58ecfbd824e49901801d608e"
+  },
+  "id": "59258466060100490c77130b"
+}

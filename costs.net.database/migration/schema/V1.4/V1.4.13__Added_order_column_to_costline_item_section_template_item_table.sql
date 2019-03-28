@@ -1,0 +1,1 @@
+alter table cost_line_item_section_template_item add column "order" int not null default(0);

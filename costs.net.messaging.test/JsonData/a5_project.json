@@ -1,0 +1,103 @@
+﻿{
+  "_id": "590c8c8a9bd116001fe9cbee",
+  "_subtype": "project",
+  "_cm": {
+    "common": {
+      "advertiser": [
+        "new One"
+      ],
+      "brand": [
+        "Brand"
+      ],
+      "sub_brand": [
+        "SubBrand"
+      ],
+      "product": [
+        "Product1"
+      ],
+      "Campaign": "Campaign",
+      "name": "Never Phone",
+      "projectMediaType": [
+        "Cross Media"
+      ],
+      "campaignDates": {
+        "start": "2017-05-10T23:00:00Z",
+        "end": "2017-06-03T23:00:00Z"
+      },
+      "published": true
+    }
+  },
+  "_documentType": "fsobject",
+  "_version": 5,
+  "_created": "2017-05-05T14:30:34.76Z",
+  "_modified": "2017-05-05T14:30:44.57Z",
+  "_s": 1,
+  "project": {
+    "_id": "590c8c8a9bd116001fe9cbee"
+  },
+  "owner": "590b45931ed79701b47ea099",
+  "_parents": [
+    "590b45921ed79701b47ea086"
+  ],
+  "createdBy": {
+    "_id": "590b45931ed79701b47ea099",
+    "email": "oliver@jjstereo.com.ua",
+    "firstName": "Olivier",
+    "lastName": "Samuel",
+    "fullName": "Olivier Samuel"
+  },
+  "agency": {
+    "_id": "590b45921ed79701b47ea086",
+    "name": "JJ Stereo",
+    "country": "AF"
+  },
+  "isDraft": false,
+  "short_id": "b",
+  "lastActivity": {
+    "user": {
+      "id": "590b45931ed79701b47ea099",
+      "firstName": "Olivier",
+      "lastName": "Samuel",
+      "email": "oliver@jjstereo.com.ua"
+    },
+    "dateTime": "2017-05-05T14:30:35.416Z"
+  },
+  "folders": [
+    {
+      "owner": "590b45931ed79701b47ea099",
+      "_documentType": "fsobject",
+      "agency": {
+        "country": "AF",
+        "name": "JJ Stereo",
+        "_id": "590b45921ed79701b47ea086"
+      },
+      "_subtype": "folder",
+      "_cm": {
+        "common": {
+          "name": "Never Phone"
+        }
+      },
+      "project": {
+        "_id": "590c8c8a9bd116001fe9cbee"
+      },
+      "short_id": "c",
+      "_parents": [
+        "590c8c8a9bd116001fe9cbee"
+      ],
+      "_s": 1,
+      "createdBy": {
+        "firstName": "Olivier",
+        "lastName": "Samuel",
+        "fullName": "Olivier Samuel",
+        "_id": "590b45931ed79701b47ea099",
+        "email": "oliver@jjstereo.com.ua"
+      },
+      "fileSize": 0,
+      "_created": "2017-05-05T14:30:34.881Z",
+      "_id": "590c8c8a9bd116001fe9cbef",
+      "_version": 3,
+      "_modified": "2017-05-05T14:30:34.885Z",
+      "content": []
+    }
+  ]
+}

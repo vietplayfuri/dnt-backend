@@ -1,0 +1,42 @@
+﻿{
+  "version": 1.0,
+  "timestamp": "2017-05-05T14:30:34.975Z",
+  "subject": {
+    "id": "590b45931ed79701b47ea099",
+    "email": "oliver@jjstereo.com.ua",
+    "firstName": "Olivier",
+    "lastName": "Samuel",
+    "application": "adbank5",
+    "agency": {
+      "id": "590b45921ed79701b47ea086",
+      "name": "JJ Stereo"
+    },
+    "impersonatedBy": {
+      "id": "4ef31ce1766ec96769b399c0",
+      "email": "admin"
+    }
+  },
+  "action": { "type": "projectCreated" },
+  "object": {
+    "id": "590c8c8a9bd116001fe9cbee",
+    "name": "Never Phone",
+    "type": "project",
+    "agency": {
+      "id": "590b45921ed79701b47ea086",
+      "name": "JJ Stereo"
+    },
+    "parents": [ "590b45921ed79701b47ea086", "590c8c8a9bd116001fe9cbee" ]
+  },
+  "recipients": [ "590b45931ed79701b47ea099" ],
+  "viewers": [ "590b45931ed79701b47ea099" ],
+  "shared": {
+    "to": [
+      {
+        "id": "590b45931ed79701b47ea099",
+        "agency": { "url": "http://localhost:8080" }
+      }
+    ]
+  },
+  "view": { "id": "590c8c8a9bd116001fe9cbee" },
+  "id": "590c8c93460100920481da2e"
+}

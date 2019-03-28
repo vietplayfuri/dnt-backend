@@ -1,0 +1,39 @@
+﻿{
+  "version": 55236335,
+  "timestamp": "2017-03-07T11:06:18.341Z",
+  "subject": {
+    "id": "4ef31ce1766ec96769b399c0",
+    "email": "admin",
+    "application": "adbank5",
+    "agency": {
+      "id": "000000000000000000000000",
+      "name": "agency"
+    }
+  },
+  "object": {
+    "userInfo": {
+      "_id": { "$oid": "58adcba90c885409f1f47c57" },
+      "documentType": "user"
+    },
+    "sessionData": {
+      "Band": "04",
+      "OrgType": "",
+      "Country": "POLAND",
+      "CountryID": "PL",
+      "buLabel": "pgSSO"
+    },
+    "parents": ["000000000000000000000000"]
+  },
+  "action": { "type": "logged" },
+  "recipients": ["4ef31ce1766ec96769b399c0"],
+  "shared": {
+    "to": [
+      {
+        "id": "4ef31ce1766ec96769b399c0",
+        "agency": { "url": "http://localhost:8080" }
+      }
+    ]
+  },
+  "viewers": ["4ef31ce1766ec96769b399c0"],
+  "id": "58be94303001000001e4d21a"
+}

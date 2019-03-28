@@ -1,0 +1,14 @@
+version: '2'
+services:
+  costs_migration:
+    image: costs-migrate:1
+    build:
+      context: .
+      dockerfile: migration.Dockerfile
+    restart: "no"
+    environment:
+      - POSTGRES_DATABASE_NAME=costs
+      - POSTGRES_HOST=10.44.243.150
+      - POSTGRES_PORT=5433
+      - POSTGRESUSER=postgres
+      - POSTGRESPASSWORD=postgres

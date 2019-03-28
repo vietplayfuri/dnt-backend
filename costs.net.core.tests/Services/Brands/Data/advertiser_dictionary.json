@@ -1,0 +1,47 @@
+﻿{
+  "_id": "58ed04f6adf81c002c6e409e",
+  "values": [
+    {
+      "key": "Ad1",
+      "additionalParameter": "",
+      "values": [
+        {
+          "key": "Sector 1",
+          "additionalParameter": "",
+          "values": [
+            {
+              "key": "Brand 1",
+              "additionalParameter": "ss",
+              "values": []
+            },
+            {
+              "key": "Brand 2",
+              "additionalParameter": "s",
+              "values": [
+                {
+                  "key": "Brand final",
+                  "additionalParameter": "",
+                  "values": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "advertiser",
+  "_documentType": "dictionary",
+  "_version": 59,
+  "_parents": [
+    "58ecfbd824e49901801d608e"
+  ],
+  "_modified": "2017-04-13T11:33:56.170Z",
+  "_created": "2017-04-11T16:31:50.990Z",
+  "agency": {
+    "_id": "58ecfbd824e49901801d608e",
+    "name": "Saatchi",
+    "country": "GB"
+  },
+  "_s": 1
+}

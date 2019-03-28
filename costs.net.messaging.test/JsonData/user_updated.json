@@ -1,0 +1,28 @@
+﻿{
+  "version": 1.0,
+  "timestamp": "2017-05-25T13:14:56.629Z",
+  "subject": {
+    "id": "4ef31ce1766ec96769b399c0",
+    "email": "admin",
+    "application": "adbank5"
+  },
+  "action": { "type": "userUpdated" },
+  "object": {
+    "type": "user",
+    "id": "5926d81c9bd116001e629cb0",
+    "email": "Test@tessst.com",
+    "firstName": "Test",
+    "lastName": "Test",
+    "userLocale": "en",
+    "agency": {
+      "id": "58ecfbd824e49901801d608e",
+      "name": "Saatchi"
+    },
+    "parents": [ "58ecfbd824e49901801d608e" ]
+  },
+  "recipients": [],
+  "viewers": [],
+  "shared": { "to": [] },
+  "view": { "id": "5926d81c9bd116001e629cb0" },
+  "id": "5926d8d22201001300c1f2b6"
+}

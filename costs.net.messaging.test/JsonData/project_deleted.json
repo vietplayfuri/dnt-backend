@@ -1,0 +1,42 @@
+﻿{
+  "version": 1.0,
+  "timestamp": "2018-03-20T12:12:16.463Z",
+  "subject": {
+    "id": "5aa91842f264de02e680efd7",
+    "email": "proctorAdmin2@test.com",
+    "firstName": "admin2",
+    "lastName": "proctor",
+    "application": "adbank5",
+    "agency": {
+      "id": "5aa91840f264de02e680efc5",
+      "name": "Primary Client"
+    },
+    "impersonatedBy": {
+      "id": "4ef31ce1766ec96769b399c0",
+      "email": "admin"
+    }
+  },
+  "action": { "type": "projectDeleted" },
+  "object": {
+    "id": "5ab0fa826f5e5d002192dbb8",
+    "name": "Tester",
+    "type": "project",
+    "agency": {
+      "id": "5aa91840f264de02e680efc5",
+      "name": "Primary Client"
+    },
+    "parents": [ "5aa91840f264de02e680efc5", "5ab0fa826f5e5d002192dbb8" ]
+  },
+  "recipients": [ "5aa91842f264de02e680efd7" ],
+  "viewers": [],
+  "shared": {
+    "to": [
+      {
+        "id": "5aa91842f264de02e680efd7",
+        "agency": { "url": "http://localhost:8080" }
+      }
+    ]
+  },
+  "view": { "id": "5ab0fa826f5e5d002192dbb8" },
+  "id": "5ab0faab470100cb02fec7b1"
+}

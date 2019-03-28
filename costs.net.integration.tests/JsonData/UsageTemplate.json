@@ -1,0 +1,523 @@
+﻿{
+  "name": "Buyout Cost",
+  "clientType": "Pg",
+  "type": "Buyout",
+  "costDetails": {
+    "name": "costDetails",
+    "label": "Cost Details",
+    "fields": [
+      {
+        "label": "Agency Name",
+        "name": "agencyName",
+        "type": "string"
+      },
+      {
+        "label": "Agency Location",
+        "name": "agencyLocation",
+        "type": "string"
+      },
+      {
+        "label": "Agency producer/art buyer",
+        "name": "agencyProducerArtBuyer",
+        "type": "string"
+      },
+      {
+        "label": "Budget Region",
+        "name": "budgetRegion",
+        "type": "string"
+      },
+      {
+        "label": "Brand",
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "label": "Content Type",
+        "name": "contentType",
+        "type": "string"
+      },
+      {
+        "label": "Production Type",
+        "name": "productionType",
+        "type": "string"
+      },
+      {
+        "label": "Target Budget",
+        "name": "targetBudget",
+        "type": "number",
+        "mandatory": false
+      },
+      {
+        "label": "Agency Tracking Number",
+        "name": "contentType",
+        "type": "string"
+      },
+      {
+        "label": "Organisation",
+        "name": "organisation",
+        "type": "string"
+      },
+      {
+        "label": "Agency Currency",
+        "name": "agencyCurrency",
+        "type": "string"
+      }
+    ]
+  },
+  "productionDetails": [
+    {
+      "type": "video",
+      "forms": [
+        {
+          "name": "fullProductionWithShoot",
+          "label": "Full Production With Shoot",
+          "productionType": "Full Production",
+          "fields": [
+          ],
+          "costLineItemSections": [
+            {
+              "name": "usageBuyout",
+              "label": "Usage/Buyout",
+              "items": [
+                {
+                  "label": "Day Fee",
+                  "name": "dayFee",
+                  "mandatory": false
+                },
+                {
+                  "label": "Usage/Residuals/Buyout Fee",
+                  "name": "usageBuyoutFee"
+                },
+                {
+                  "label": "Negotiation/broker agency fee",
+                  "name": "negotiationBrokerAgencyFee"
+                },
+                {
+                  "label": "Other services and fees",
+                  "name": "otherServicesAndFees"
+                },
+                {
+                  "label": "Bonus (celebrity only)",
+                  "name": "bonusCelebrityOnly"
+                },
+                {
+                  "label": "Pension & Health (e.g. SAG)",
+                  "name": "pensionAndHealth"
+                },
+                {
+                  "label": "Foreign Exchange Loss/(Gain)",
+                  "name": "foreignExchangeLossGain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "postProductionOnlyWithShoot",
+          "label": "Post Production Only With Shoot",
+          "productionType": "Post Production Only",
+          "fields": [
+          ],
+          "costLineItemSections": [
+            {
+              "name": "usageBuyout",
+              "label": "Usage/Buyout",
+              "items": [
+                {
+                  "label": "Day Fee",
+                  "name": "dayFee",
+                  "mandatory": false
+                },
+                {
+                  "label": "Usage/Residuals/Buyout Fee",
+                  "name": "usageBuyoutFee"
+                },
+                {
+                  "label": "Negotiation/broker agency fee",
+                  "name": "negotiationBrokerAgencyFee"
+                },
+                {
+                  "label": "Other services and fees",
+                  "name": "otherServicesAndFees"
+                },
+                {
+                  "label": "Bonus (celebrity only)",
+                  "name": "bonusCelebrityOnly"
+                },
+                {
+                  "label": "Pension & Health (e.g. SAG)",
+                  "name": "pensionAndHealth"
+                },
+                {
+                  "label": "Foreign Exchange Loss/(Gain)",
+                  "name": "foreignExchangeLossGain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cgiAnimationWithShoot",
+          "label": "CGI\\Animation With Shoot",
+          "productionType": "CGI\\Animation",
+          "fields": [
+          ],
+          "costLineItemSections": [
+            {
+              "name": "usageBuyout",
+              "label": "Usage/Buyout",
+              "items": [
+                {
+                  "label": "Day Fee",
+                  "name": "dayFee",
+                  "mandatory": false
+                },
+                {
+                  "label": "Usage/Residuals/Buyout Fee",
+                  "name": "usageBuyoutFee"
+                },
+                {
+                  "label": "Negotiation/broker agency fee",
+                  "name": "negotiationBrokerAgencyFee"
+                },
+                {
+                  "label": "Other services and fees",
+                  "name": "otherServicesAndFees"
+                },
+                {
+                  "label": "Bonus (celebrity only)",
+                  "name": "bonusCelebrityOnly"
+                },
+                {
+                  "label": "Pension & Health (e.g. SAG)",
+                  "name": "pensionAndHealth"
+                },
+                {
+                  "label": "Foreign Exchange Loss/(Gain)",
+                  "name": "foreignExchangeLossGain"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "forms": [
+        {
+          "name": "audioProduction",
+          "label": "Audio Full Production",
+          "productionType": "Full Production",
+          "fields": [
+          ],
+          "costLineItemSections": [
+            {
+              "name": "usageBuyout",
+              "label": "Usage/Buyout",
+              "items": [
+                {
+                  "label": "Day Fee",
+                  "name": "dayFee",
+                  "mandatory": false
+                },
+                {
+                  "label": "Usage/Residuals/Buyout Fee",
+                  "name": "usageBuyoutFee"
+                },
+                {
+                  "label": "Negotiation/broker agency fee",
+                  "name": "negotiationBrokerAgencyFee"
+                },
+                {
+                  "label": "Other services and fees",
+                  "name": "otherServicesAndFees"
+                },
+                {
+                  "label": "Bonus (celebrity only)",
+                  "name": "bonusCelebrityOnly"
+                },
+                {
+                  "label": "Pension & Health (e.g. SAG)",
+                  "name": "pensionAndHealth"
+                },
+                {
+                  "label": "Foreign Exchange Loss/(Gain)",
+                  "name": "foreignExchangeLossGain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "audioProduction",
+          "label": "Audio Post Production Only",
+          "productionType": "Post Production Only",
+          "fields": [
+          ],
+          "costLineItemSections": [
+            {
+              "name": "usageBuyout",
+              "label": "Usage/Buyout",
+              "items": [
+                {
+                  "label": "Day Fee",
+                  "name": "dayFee",
+                  "mandatory": false
+                },
+                {
+                  "label": "Usage/Residuals/Buyout Fee",
+                  "name": "usageBuyoutFee"
+                },
+                {
+                  "label": "Negotiation/broker agency fee",
+                  "name": "negotiationBrokerAgencyFee"
+                },
+                {
+                  "label": "Other services and fees",
+                  "name": "otherServicesAndFees"
+                },
+                {
+                  "label": "Bonus (celebrity only)",
+                  "name": "bonusCelebrityOnly"
+                },
+                {
+                  "label": "Pension & Health (e.g. SAG)",
+                  "name": "pensionAndHealth"
+                },
+                {
+                  "label": "Foreign Exchange Loss/(Gain)",
+                  "name": "foreignExchangeLossGain"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "photography",
+      "forms": [
+        {
+          "name": "stillImageProduction",
+          "label": "Still Image Production",
+          "productionType": "Full Production",
+          "fields": [
+          ],
+          "costLineItemSections": [
+            {
+              "name": "usageBuyout",
+              "label": "Usage/Buyout",
+              "items": [
+                {
+                  "label": "Day Fee",
+                  "name": "dayFee",
+                  "mandatory": false
+                },
+                {
+                  "label": "Usage/Residuals/Buyout Fee",
+                  "name": "usageBuyoutFee"
+                },
+                {
+                  "label": "Negotiation/broker agency fee",
+                  "name": "negotiationBrokerAgencyFee"
+                },
+                {
+                  "label": "Other services and fees",
+                  "name": "otherServicesAndFees"
+                },
+                {
+                  "label": "Bonus (celebrity only)",
+                  "name": "bonusCelebrityOnly"
+                },
+                {
+                  "label": "Pension & Health (e.g. SAG)",
+                  "name": "pensionAndHealth"
+                },
+                {
+                  "label": "Foreign Exchange Loss/(Gain)",
+                  "name": "foreignExchangeLossGain"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "digital",
+      "forms": [
+        {
+          "name": "digitalDevelopmentProduction",
+          "label": "Digital Development Production",
+          "productionType": "Full Production",
+          "fields": [
+          ],
+          "costLineItemSections": [
+            {
+              "name": "usageBuyout",
+              "label": "Usage/Buyout",
+              "items": [
+                {
+                  "label": "Day Fee",
+                  "name": "dayFee",
+                  "mandatory": false
+                },
+                {
+                  "label": "Usage/Residuals/Buyout Fee",
+                  "name": "usageBuyoutFee"
+                },
+                {
+                  "label": "Negotiation/broker agency fee",
+                  "name": "negotiationBrokerAgencyFee"
+                },
+                {
+                  "label": "Other services and fees",
+                  "name": "otherServicesAndFees"
+                },
+                {
+                  "label": "Bonus (celebrity only)",
+                  "name": "bonusCelebrityOnly"
+                },
+                {
+                  "label": "Pension & Health (e.g. SAG)",
+                  "name": "pensionAndHealth"
+                },
+                {
+                  "label": "Foreign Exchange Loss/(Gain)",
+                  "name": "foreignExchangeLossGain"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "buyoutDetails",
+      "label": "Usage/buyout Details",
+      "fields": [
+        {
+          "label": "Name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "label": "Name of licensor",
+          "name": "nameOfLicensor",
+          "type": "string"
+        },
+        {
+          "label": "Airing countries",
+          "name": "airingCountries",
+          "type": "string[]"
+        },
+        {
+          "label": "Touchpoints",
+          "name": "touchpoints",
+          "type": "string[]"
+        }
+      ],
+      "sections": [
+        {
+          "name": "Contract",
+          "label": "contract",
+          "fields": [
+            {
+              "label": "Exclusivity",
+              "name": "exclusivity",
+              "type": "string"
+            },
+            {
+              "label": "Exclusivity category",
+              "name": "exclusivityCategory",
+              "type": "string"
+            },
+            {
+              "label": "Start date",
+              "name": "startDate",
+              "type": "date"
+            },
+            {
+              "label": "End date",
+              "name": "endDate",
+              "type": "date"
+            },
+            {
+              "label": "Contract ID number",
+              "name": "contractId",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "negotiatedTerms",
+      "label": "Negotiated Terms",
+      "fields": [
+        {
+          "label": "Produced asset",
+          "name": "producedAsset",
+          "type": "string"
+        }
+      ],
+      "sections": [
+        {
+          "name": "Talent Decision Rights",
+          "label": "talentDecisionRights",
+          "fields": [
+            {
+              "label": "Makeup artist",
+              "name": "makeupArtist",
+              "type": "string"
+            },
+            {
+              "label": "Hair stylist",
+              "name": "hairStylist",
+              "type": "string"
+            },
+            {
+              "label": "Nail artist",
+              "name": "nailArtist",
+              "type": "string"
+            },
+            {
+              "label": "Wardrobe artist",
+              "name": "wardrobeArtist",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "Entourage Travel",
+          "label": "entourageTravel",
+          "fields": [
+            {
+              "label": "Celebrity",
+              "name": "celebrity",
+              "type": "string"
+            },
+            {
+              "label": "Manager",
+              "name": "manager",
+              "type": "string"
+            },
+            {
+              "label": "Glam squad",
+              "name": "glamSquad",
+              "type": "string"
+            },
+            {
+              "label": "Security",
+              "name": "security",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
