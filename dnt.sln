@@ -15,13 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{473DA2
 		entrypoint.sh = entrypoint.sh
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.api", "costs.net.api\dnt.api.csproj", "{B227E188-E8E0-4163-80D1-5C7BAE0D3202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.api", "dnt.api\dnt.api.csproj", "{B227E188-E8E0-4163-80D1-5C7BAE0D3202}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.core", "costs.net.core\dnt.core.csproj", "{657B3282-F57F-4314-B35B-1E660F9EA183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.core", "dnt.core\dnt.core.csproj", "{657B3282-F57F-4314-B35B-1E660F9EA183}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.dataAccess", "costs.net.dataAccess\dnt.dataAccess.csproj", "{E0044ACE-0C28-41B1-9AC1-04563CFA760E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.dataAccess", "dnt.dataAccess\dnt.dataAccess.csproj", "{E0044ACE-0C28-41B1-9AC1-04563CFA760E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.host", "costs.net.host\dnt.host.csproj", "{B4FEFD00-8776-460C-AF4F-188BBEEB9310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnt.host", "dnt.host\dnt.host.csproj", "{B4FEFD00-8776-460C-AF4F-188BBEEB9310}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scheduler", "scheduler", "{BFB36A60-91A0-4E9E-89C2-4D669AF7FE41}"
 EndProject
